@@ -1,0 +1,32 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints/
+
+# Databases
+backend/handloom.db
+backend/handloom.db-journal
+
+# OS/IDE
+.vscode/
+.DS_Store
+Thumbs.db

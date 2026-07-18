@@ -1,0 +1,29 @@
+month,festival_name,season,demand_multiplier,primary_categories,primary_regions,notes
+1,Makar Sankranti / Pongal,Winter Wedding,1.25,"Cotton Saree,Silk Saree","Kanchipuram,Pochampally",South Indian harvest festival; strong saree demand
+1,Republic Day Sales,Winter Wedding,1.10,"Fabric Yardage,Dress Material","Varanasi,Chanderi",Modest boost from institutional/government orders
+2,Wedding Season Peak,Winter Wedding,1.35,"Silk Saree,Cotton Saree,Dress Material","Varanasi,Kanchipuram,Chanderi",Peak wedding season continues through February
+2,Basant Panchami,Winter Wedding,1.15,"Silk Saree,Dupatta","Varanasi,Chanderi",Yellow-themed textiles see a spike
+3,Holi,Spring Transition,1.10,"Dupatta,Stole,Fabric Yardage","Varanasi,Chanderi",Colorful textiles gain modest traction
+3,Eid-ul-Fitr (variable),Spring Transition,1.20,"Fabric Yardage,Dupatta,Dress Material","Varanasi,Pochampally",Date varies by lunar calendar; strong fabric yardage demand
+4,Ugadi / Gudi Padwa,Summer Lull,1.05,"Cotton Saree,Dress Material","Kanchipuram,Pochampally",Regional new year; brief uptick in South/West
+4,Summer Onset,Summer Lull,0.80,"Silk Saree,Stole","Varanasi,Kanchipuram",Demand drops as summer heat reduces event attendance
+5,Summer Low,Summer Lull,0.75,"Silk Saree,Stole,Dress Material","Varanasi,Kanchipuram,Chanderi",Lowest demand period; weavers build inventory
+5,Akshaya Tritiya,Summer Lull,1.05,"Silk Saree,Cotton Saree","Kanchipuram,Varanasi",Auspicious buying day provides brief lift
+6,Rath Yatra,Summer Lull,0.85,"Cotton Saree,Fabric Yardage","Pochampally,Chanderi",Slight recovery from summer trough; regional festival
+6,Eid-ul-Adha (variable),Summer Lull,1.15,"Fabric Yardage,Dupatta,Dress Material","Varanasi,Pochampally",Date varies; fabric and dupatta demand rises
+7,Monsoon Steady,Monsoon,0.90,"Cotton Saree,Dupatta,Fabric Yardage","Varanasi,Chanderi,Pochampally",Stable low-mid demand; logistics challenges in rural areas
+7,Guru Purnima,Monsoon,1.00,"Stole,Dupatta","Varanasi,Chanderi",Baseline demand; some traditional gifting
+8,Raksha Bandhan,Pre-Festival Ramp,1.15,"Dupatta,Stole,Dress Material","Varanasi,Chanderi",Gift-driven demand for lighter textiles
+8,Independence Day Sales,Pre-Festival Ramp,1.05,"Fabric Yardage,Cotton Saree","Pochampally,Kanchipuram",Institutional purchases; khadi/handloom promotion week
+9,Ganesh Chaturthi,Pre-Festival Ramp,1.15,"Silk Saree,Cotton Saree,Dress Material","Kanchipuram,Pochampally",Strong in South/West; demand ramps toward festival season
+9,Onam,Pre-Festival Ramp,1.20,"Cotton Saree,Fabric Yardage","Kanchipuram,Pochampally",Kerala harvest festival; cotton saree surge
+9,Durga Puja Prep,Pre-Festival Ramp,1.25,"Cotton Saree,Stole,Dupatta","Varanasi,Chanderi",Advance orders begin for October delivery
+10,Durga Puja / Navratri,Peak Festival,1.40,"Cotton Saree,Stole,Dupatta,Dress Material","Varanasi,Chanderi",Major demand spike across North/East India
+10,Dussehra,Peak Festival,1.35,"Silk Saree,Cotton Saree","Varanasi,Kanchipuram,Chanderi",Auspicious buying; transition to Diwali prep orders
+10,Pre-Diwali Orders,Peak Festival,1.50,"Silk Saree,Dress Material,Dupatta","Varanasi,Kanchipuram",Weavers receive large advance orders for Diwali delivery
+11,Diwali,Peak Festival,1.60,"Silk Saree,Dress Material,Dupatta,Stole","Varanasi,Kanchipuram,Chanderi",Highest demand month; all categories surge
+11,Bhai Dooj / Chhath,Peak Festival,1.30,"Cotton Saree,Stole,Fabric Yardage","Varanasi,Pochampally",Post-Diwali tail; regional festivals sustain demand
+11,Wedding Season Start,Peak Festival,1.45,"Silk Saree,Cotton Saree,Dress Material","Varanasi,Kanchipuram,Chanderi",Wedding season kicks off with strong saree orders
+12,Wedding Season Core,Wedding Peak,1.50,"Silk Saree,Cotton Saree,Dress Material","Varanasi,Kanchipuram,Chanderi",Peak wedding month; highest silk saree volumes
+12,Christmas / New Year,Wedding Peak,1.15,"Stole,Dupatta,Fabric Yardage","Pochampally,Chanderi",Export and urban boutique orders for holiday gifting
+12,Year-End Institutional,Wedding Peak,1.10,"Fabric Yardage,Cotton Saree","Pochampally,Varanasi",Government and institutional year-end procurement

@@ -1,0 +1,312 @@
+order_id,weaver_id,weaver_name,craft_cluster,buyer_id,buyer_name,category,quantity,price_per_unit,total_value,order_date,expected_delivery_date,expected_payment_date,actual_payment_date,status,advance_amount
+ORD-0001,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,4,8500,34000,2024-07-03,2024-07-25,2024-08-10,2024-08-08,paid,10200
+ORD-0002,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Cotton Saree,8,2200,17600,2024-07-05,2024-07-28,2024-08-28,2024-09-05,paid,0
+ORD-0003,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,3,12000,36000,2024-07-08,2024-08-05,2024-08-20,2024-08-18,paid,10800
+ORD-0004,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Dupatta,15,950,14250,2024-07-10,2024-07-30,2024-09-10,2024-09-22,paid,0
+ORD-0005,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,20,650,13000,2024-07-12,2024-08-02,2024-08-15,2024-08-14,paid,3900
+ORD-0006,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Stole,12,1800,21600,2024-07-15,2024-08-01,2024-08-20,2024-08-25,paid,0
+ORD-0007,W001,Ramesh Vishwakarma,Varanasi,B007,GovEmporium State Store,Dress Material,10,1500,15000,2024-07-18,2024-08-10,2024-09-30,2024-10-15,paid,0
+ORD-0008,W003,Priya Sharma,Chanderi,B008,Handloom House,Stole,8,1200,9600,2024-07-20,2024-08-08,2024-08-25,2024-08-23,paid,2880
+ORD-0009,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Cotton Saree,6,2800,16800,2024-07-22,2024-08-12,2024-08-28,2024-08-30,paid,5040
+ORD-0010,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Dupatta,10,800,8000,2024-07-25,2024-08-14,2024-09-14,2024-09-20,paid,0
+ORD-0011,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Silk Saree,2,9500,19000,2024-07-28,2024-08-20,2024-09-05,2024-09-03,paid,5700
+ORD-0012,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Fabric Yardage,25,600,15000,2024-08-01,2024-08-22,2024-10-01,2024-10-10,paid,0
+ORD-0013,W003,Priya Sharma,Chanderi,B002,Kanchi Collections,Dress Material,7,1800,12600,2024-08-03,2024-08-25,2024-09-10,2024-09-08,paid,3780
+ORD-0014,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Silk Saree,2,13000,26000,2024-08-05,2024-09-02,2024-09-20,2024-09-18,paid,7800
+ORD-0015,W004,Suresh Meghwal,Pochampally,B008,Handloom House,Fabric Yardage,18,700,12600,2024-08-08,2024-08-28,2024-09-12,2024-09-10,paid,0
+ORD-0016,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Stole,10,1900,19000,2024-08-10,2024-08-30,2024-09-15,2024-09-18,paid,5700
+ORD-0017,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Cotton Saree,6,2200,13200,2024-08-12,2024-09-01,2024-10-01,2024-10-08,paid,0
+ORD-0018,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dupatta,12,1000,12000,2024-08-15,2024-09-05,2024-09-20,2024-09-19,paid,3600
+ORD-0019,W002,Lakshmi Devi,Kanchipuram,B007,GovEmporium State Store,Cotton Saree,5,2800,14000,2024-08-18,2024-09-08,2024-10-28,2024-11-10,paid,0
+ORD-0020,W004,Suresh Meghwal,Pochampally,B004,WeaveMart Exports,Dupatta,8,850,6800,2024-08-20,2024-09-10,2024-10-20,2024-10-25,paid,0
+ORD-0021,W005,Fatima Begum,Varanasi,B008,Handloom House,Dress Material,6,1600,9600,2024-08-22,2024-09-12,2024-09-28,2024-09-26,paid,2880
+ORD-0022,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,5,8500,42500,2024-09-01,2024-09-25,2024-10-10,2024-10-08,paid,12750
+ORD-0023,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Silk Saree,4,12500,50000,2024-09-03,2024-10-01,2024-10-15,2024-10-14,paid,15000
+ORD-0024,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Stole,14,1200,16800,2024-09-05,2024-09-28,2024-10-28,2024-11-02,paid,0
+ORD-0025,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,22,700,15400,2024-09-08,2024-09-30,2024-10-15,2024-10-12,paid,4620
+ORD-0026,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Cotton Saree,10,2400,24000,2024-09-10,2024-10-02,2024-10-18,2024-10-20,paid,7200
+ORD-0027,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Dupatta,18,900,16200,2024-09-12,2024-10-04,2024-11-14,2024-11-20,paid,0
+ORD-0028,W003,Priya Sharma,Chanderi,B008,Handloom House,Cotton Saree,8,2000,16000,2024-09-15,2024-10-06,2024-10-22,2024-10-21,paid,4800
+ORD-0029,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Dress Material,5,2200,11000,2024-09-18,2024-10-10,2024-10-25,2024-10-28,paid,3300
+ORD-0030,W005,Fatima Begum,Varanasi,B007,GovEmporium State Store,Stole,15,1800,27000,2024-09-20,2024-10-12,2024-11-30,2024-12-10,paid,0
+ORD-0031,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Dupatta,12,850,10200,2024-09-22,2024-10-14,2024-10-28,2024-10-30,paid,3060
+ORD-0032,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,8,9000,72000,2024-10-01,2024-10-28,2024-11-12,2024-11-10,paid,21600
+ORD-0033,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,7,13000,91000,2024-10-03,2024-11-01,2024-11-15,2024-11-14,paid,27300
+ORD-0034,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Dress Material,12,1900,22800,2024-10-05,2024-10-30,2024-11-15,2024-11-12,paid,6840
+ORD-0035,W005,Fatima Begum,Varanasi,B003,Desi Threads Online,Silk Saree,5,9500,47500,2024-10-07,2024-11-02,2024-12-02,2024-12-08,paid,0
+ORD-0036,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,30,700,21000,2024-10-08,2024-11-01,2024-11-15,2024-11-13,paid,6300
+ORD-0037,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,12,2300,27600,2024-10-10,2024-11-03,2024-11-20,2024-11-18,paid,8280
+ORD-0038,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Cotton Saree,9,2800,25200,2024-10-12,2024-11-05,2024-12-15,2024-12-22,paid,0
+ORD-0039,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Stole,18,1300,23400,2024-10-15,2024-11-08,2024-11-22,2024-11-20,paid,7020
+ORD-0040,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Dress Material,8,1700,13600,2024-10-18,2024-11-10,2024-11-25,2024-11-28,paid,4080
+ORD-0041,W004,Suresh Meghwal,Pochampally,B007,GovEmporium State Store,Dupatta,15,900,13500,2024-10-20,2024-11-12,2024-12-30,2025-01-08,paid,0
+ORD-0042,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,10,9200,92000,2024-10-22,2024-11-18,2024-12-03,2024-12-01,paid,27600
+ORD-0043,W002,Lakshmi Devi,Kanchipuram,B003,Desi Threads Online,Silk Saree,6,12500,75000,2024-10-25,2024-11-22,2024-12-22,2024-12-28,paid,0
+ORD-0044,W003,Priya Sharma,Chanderi,B005,Ikat World,Dupatta,20,1000,20000,2024-10-28,2024-11-20,2024-12-05,2024-12-03,paid,6000
+ORD-0045,W005,Fatima Begum,Varanasi,B008,Handloom House,Stole,16,1900,30400,2024-10-30,2024-11-22,2024-12-08,2024-12-06,paid,9120
+ORD-0046,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,9,9000,81000,2024-11-01,2024-11-28,2024-12-12,2024-12-10,paid,24300
+ORD-0047,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,8,13500,108000,2024-11-03,2024-12-01,2024-12-15,2024-12-14,paid,32400
+ORD-0048,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Fabric Yardage,28,750,21000,2024-11-05,2024-11-28,2024-12-12,2024-12-10,paid,6300
+ORD-0049,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Cotton Saree,10,2100,21000,2024-11-07,2024-12-01,2025-01-10,2025-01-18,paid,0
+ORD-0050,W005,Fatima Begum,Varanasi,B003,Desi Threads Online,Silk Saree,6,9800,58800,2024-11-08,2024-12-05,2025-01-05,2025-01-10,paid,0
+ORD-0051,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Dress Material,14,1600,22400,2024-11-10,2024-12-03,2024-12-18,2024-12-16,paid,6720
+ORD-0052,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,18,900,16200,2024-11-12,2024-12-05,2024-12-20,2024-12-22,paid,4860
+ORD-0053,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Cotton Saree,7,2900,20300,2024-11-15,2024-12-10,2024-12-25,2024-12-24,paid,6090
+ORD-0054,W003,Priya Sharma,Chanderi,B007,GovEmporium State Store,Stole,12,1250,15000,2024-11-18,2024-12-10,2025-01-28,2025-02-05,paid,0
+ORD-0055,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Cotton Saree,8,2500,20000,2024-11-20,2024-12-12,2024-12-28,2024-12-26,paid,6000
+ORD-0056,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Silk Saree,7,8800,61600,2024-11-22,2024-12-18,2025-01-02,2024-12-30,paid,18480
+ORD-0057,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,25,680,17000,2024-11-25,2024-12-18,2025-01-18,2025-01-22,paid,0
+ORD-0058,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Dress Material,6,2300,13800,2024-11-28,2024-12-22,2025-01-06,2025-01-04,paid,4140
+ORD-0059,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dupatta,16,1050,16800,2024-11-30,2024-12-24,2025-01-08,2025-01-06,paid,5040
+ORD-0060,W005,Fatima Begum,Varanasi,B004,WeaveMart Exports,Stole,14,1850,25900,2024-12-02,2024-12-26,2025-02-05,2025-02-12,paid,0
+ORD-0061,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,8,9200,73600,2024-12-05,2025-01-02,2025-01-16,2025-01-14,paid,22080
+ORD-0062,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,6,13000,78000,2024-12-07,2025-01-05,2025-01-20,2025-01-18,paid,23400
+ORD-0063,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Dupatta,14,900,12600,2024-12-08,2025-01-01,2025-01-15,2025-01-12,paid,3780
+ORD-0064,W003,Priya Sharma,Chanderi,B008,Handloom House,Cotton Saree,9,2100,18900,2024-12-10,2025-01-04,2025-01-20,2025-01-18,paid,5670
+ORD-0065,W005,Fatima Begum,Varanasi,B003,Desi Threads Online,Dress Material,10,1650,16500,2024-12-12,2025-01-06,2025-02-06,2025-02-12,paid,0
+ORD-0066,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Cotton Saree,10,2300,23000,2024-12-15,2025-01-08,2025-01-22,2025-01-20,paid,6900
+ORD-0067,W004,Suresh Meghwal,Pochampally,B007,GovEmporium State Store,Fabric Yardage,22,700,15400,2024-12-18,2025-01-10,2025-02-28,2025-03-08,paid,0
+ORD-0068,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Cotton Saree,8,2900,23200,2024-12-20,2025-01-14,2025-02-24,2025-03-02,paid,0
+ORD-0069,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Stole,10,1300,13000,2024-12-22,2025-01-14,2025-01-28,2025-01-26,paid,3900
+ORD-0070,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Silk Saree,4,9500,38000,2024-12-25,2025-01-20,2025-02-05,2025-02-03,paid,11400
+ORD-0071,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Silk Saree,7,9000,63000,2025-01-02,2025-01-28,2025-02-12,2025-02-10,paid,18900
+ORD-0072,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Cotton Saree,10,2800,28000,2025-01-04,2025-01-28,2025-02-12,2025-02-10,paid,8400
+ORD-0073,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dress Material,8,1900,15200,2025-01-06,2025-01-30,2025-02-14,2025-02-12,paid,4560
+ORD-0074,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,20,720,14400,2025-01-08,2025-01-30,2025-02-28,2025-03-05,paid,0
+ORD-0075,W005,Fatima Begum,Varanasi,B005,Ikat World,Stole,12,1850,22200,2025-01-10,2025-02-02,2025-02-18,2025-02-15,paid,6660
+ORD-0076,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Dupatta,14,950,13300,2025-01-12,2025-02-04,2025-03-16,2025-03-22,paid,0
+ORD-0077,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,5,13500,67500,2025-01-15,2025-02-12,2025-02-26,2025-02-24,paid,20250
+ORD-0078,W003,Priya Sharma,Chanderi,B007,GovEmporium State Store,Cotton Saree,7,2100,14700,2025-01-18,2025-02-10,2025-03-30,2025-04-08,paid,0
+ORD-0079,W005,Fatima Begum,Varanasi,B008,Handloom House,Cotton Saree,9,2500,22500,2025-01-20,2025-02-12,2025-02-28,2025-02-26,paid,6750
+ORD-0080,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,10,900,9000,2025-01-22,2025-02-14,2025-02-28,2025-03-01,paid,2700
+ORD-0081,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Cotton Saree,8,2200,17600,2025-01-25,2025-02-16,2025-03-16,2025-03-20,paid,0
+ORD-0082,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Dress Material,4,2400,9600,2025-01-28,2025-02-20,2025-03-08,2025-03-05,paid,2880
+ORD-0083,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,6,8800,52800,2025-02-01,2025-02-26,2025-03-12,2025-03-10,paid,15840
+ORD-0084,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Stole,10,1250,12500,2025-02-03,2025-02-25,2025-04-06,2025-04-12,paid,0
+ORD-0085,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Silk Saree,4,9500,38000,2025-02-05,2025-03-02,2025-03-16,2025-03-14,paid,11400
+ORD-0086,W004,Suresh Meghwal,Pochampally,B002,Kanchi Collections,Fabric Yardage,18,680,12240,2025-02-07,2025-02-28,2025-03-15,2025-03-12,paid,3672
+ORD-0087,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Cotton Saree,6,2900,17400,2025-02-10,2025-03-05,2025-03-20,2025-03-18,paid,5220
+ORD-0088,W001,Ramesh Vishwakarma,Varanasi,B007,GovEmporium State Store,Dress Material,8,1550,12400,2025-02-12,2025-03-06,2025-04-24,2025-05-02,paid,0
+ORD-0089,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Dupatta,12,1000,12000,2025-02-15,2025-03-08,2025-04-08,2025-04-14,paid,0
+ORD-0090,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Stole,8,1900,15200,2025-02-18,2025-03-10,2025-03-25,2025-03-22,paid,4560
+ORD-0091,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Dupatta,8,850,6800,2025-02-20,2025-03-12,2025-03-28,2025-03-25,paid,2040
+ORD-0092,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Silk Saree,3,13000,39000,2025-02-22,2025-03-20,2025-04-05,2025-04-03,paid,11700
+ORD-0093,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,5,2200,11000,2025-02-25,2025-03-18,2025-04-02,2025-03-30,paid,3300
+ORD-0094,W003,Priya Sharma,Chanderi,B002,Kanchi Collections,Dress Material,6,1800,10800,2025-02-28,2025-03-22,2025-04-06,2025-04-04,paid,3240
+ORD-0095,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Fabric Yardage,15,620,9300,2025-03-02,2025-03-22,2025-04-05,2025-04-08,paid,0
+ORD-0096,W005,Fatima Begum,Varanasi,B004,WeaveMart Exports,Dupatta,10,950,9500,2025-03-04,2025-03-25,2025-05-04,2025-05-10,paid,0
+ORD-0097,W002,Lakshmi Devi,Kanchipuram,B003,Desi Threads Online,Cotton Saree,5,2800,14000,2025-03-06,2025-03-28,2025-04-28,2025-05-02,paid,0
+ORD-0098,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Fabric Yardage,16,700,11200,2025-03-08,2025-03-30,2025-04-14,2025-04-12,paid,3360
+ORD-0099,W003,Priya Sharma,Chanderi,B008,Handloom House,Stole,8,1200,9600,2025-03-10,2025-04-01,2025-04-16,2025-04-14,paid,2880
+ORD-0100,W001,Ramesh Vishwakarma,Varanasi,B005,Ikat World,Dress Material,6,1500,9000,2025-03-12,2025-04-02,2025-04-18,2025-04-15,paid,2700
+ORD-0101,W005,Fatima Begum,Varanasi,B007,GovEmporium State Store,Stole,10,1800,18000,2025-03-15,2025-04-05,2025-05-24,2025-06-01,paid,0
+ORD-0102,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Dress Material,4,2200,8800,2025-03-18,2025-04-10,2025-04-25,2025-04-22,paid,2640
+ORD-0103,W004,Suresh Meghwal,Pochampally,B002,Kanchi Collections,Dupatta,10,900,9000,2025-03-20,2025-04-10,2025-04-25,2025-04-28,paid,2700
+ORD-0104,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Cotton Saree,6,2000,12000,2025-03-22,2025-04-14,2025-05-24,2025-05-30,paid,0
+ORD-0105,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Silk Saree,3,8500,25500,2025-03-25,2025-04-18,2025-05-18,2025-05-22,paid,0
+ORD-0106,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Cotton Saree,6,2500,15000,2025-03-28,2025-04-18,2025-05-02,2025-04-30,paid,4500
+ORD-0107,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Silk Saree,2,13000,26000,2025-03-30,2025-04-26,2025-05-12,2025-05-10,paid,7800
+ORD-0108,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Cotton Saree,4,2200,8800,2025-04-02,2025-04-22,2025-05-06,2025-05-08,paid,0
+ORD-0109,W003,Priya Sharma,Chanderi,B005,Ikat World,Dupatta,8,1000,8000,2025-04-04,2025-04-25,2025-05-10,2025-05-08,paid,2400
+ORD-0110,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,14,650,9100,2025-04-06,2025-04-28,2025-05-28,2025-06-02,paid,0
+ORD-0111,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Stole,7,1800,12600,2025-04-08,2025-04-30,2025-05-15,2025-05-12,paid,3780
+ORD-0112,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Cotton Saree,4,2800,11200,2025-04-10,2025-05-02,2025-06-12,2025-06-18,paid,0
+ORD-0113,W001,Ramesh Vishwakarma,Varanasi,B007,GovEmporium State Store,Stole,8,1800,14400,2025-04-12,2025-05-04,2025-06-22,2025-06-30,paid,0
+ORD-0114,W003,Priya Sharma,Chanderi,B008,Handloom House,Dress Material,5,1800,9000,2025-04-15,2025-05-06,2025-05-22,2025-05-20,paid,2700
+ORD-0115,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,6,850,5100,2025-04-18,2025-05-08,2025-05-22,2025-05-25,paid,1530
+ORD-0116,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Dress Material,5,1650,8250,2025-04-20,2025-05-10,2025-05-26,2025-05-24,paid,2475
+ORD-0117,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Dress Material,3,2300,6900,2025-04-22,2025-05-14,2025-05-30,2025-05-28,paid,2070
+ORD-0118,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Dupatta,10,900,9000,2025-04-25,2025-05-16,2025-06-01,2025-05-30,paid,2700
+ORD-0119,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Cotton Saree,5,2000,10000,2025-04-28,2025-05-20,2025-06-20,2025-06-25,paid,0
+ORD-0120,W004,Suresh Meghwal,Pochampally,B008,Handloom House,Fabric Yardage,12,680,8160,2025-04-30,2025-05-20,2025-06-05,2025-06-03,paid,2448
+ORD-0121,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,3,8500,25500,2025-05-02,2025-05-26,2025-06-10,2025-06-08,paid,7650
+ORD-0122,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Cotton Saree,5,2400,12000,2025-05-04,2025-05-26,2025-06-10,2025-06-12,paid,3600
+ORD-0123,W002,Lakshmi Devi,Kanchipuram,B007,GovEmporium State Store,Cotton Saree,4,2800,11200,2025-05-06,2025-05-28,2025-07-16,2025-07-22,paid,0
+ORD-0124,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Stole,7,1200,8400,2025-05-08,2025-05-30,2025-07-10,2025-07-15,paid,0
+ORD-0125,W004,Suresh Meghwal,Pochampally,B002,Kanchi Collections,Dupatta,8,900,7200,2025-05-10,2025-06-01,2025-06-16,2025-06-14,paid,2160
+ORD-0126,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Dress Material,5,1500,7500,2025-05-12,2025-06-02,2025-07-02,2025-07-06,paid,0
+ORD-0127,W005,Fatima Begum,Varanasi,B008,Handloom House,Stole,6,1800,10800,2025-05-15,2025-06-04,2025-06-20,2025-06-18,paid,3240
+ORD-0128,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Silk Saree,2,12500,25000,2025-05-18,2025-06-14,2025-06-28,2025-06-26,paid,7500
+ORD-0129,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dupatta,10,1050,10500,2025-05-20,2025-06-10,2025-06-25,2025-06-28,paid,3150
+ORD-0130,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,14,700,9800,2025-05-22,2025-06-12,2025-06-28,2025-06-25,paid,2940
+ORD-0131,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Cotton Saree,4,2200,8800,2025-05-25,2025-06-15,2025-07-25,2025-07-30,paid,0
+ORD-0132,W005,Fatima Begum,Varanasi,B003,Desi Threads Online,Dupatta,8,950,7600,2025-05-28,2025-06-18,2025-07-18,2025-07-22,paid,0
+ORD-0133,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Dress Material,3,2300,6900,2025-05-30,2025-06-22,2025-07-06,2025-07-04,paid,2070
+ORD-0134,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Fabric Yardage,12,620,7440,2025-06-01,2025-06-22,2025-07-06,2025-07-08,paid,0
+ORD-0135,W003,Priya Sharma,Chanderi,B002,Kanchi Collections,Cotton Saree,4,2000,8000,2025-06-03,2025-06-25,2025-07-10,2025-07-08,paid,2400
+ORD-0136,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Dupatta,6,850,5100,2025-06-05,2025-06-26,2025-07-12,2025-07-10,paid,1530
+ORD-0137,W005,Fatima Begum,Varanasi,B005,Ikat World,Stole,5,1800,9000,2025-06-07,2025-06-28,2025-07-14,2025-07-12,paid,2700
+ORD-0138,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Cotton Saree,3,2800,8400,2025-06-10,2025-07-02,2025-08-12,2025-08-18,paid,0
+ORD-0139,W001,Ramesh Vishwakarma,Varanasi,B007,GovEmporium State Store,Stole,6,1800,10800,2025-06-12,2025-07-04,2025-08-22,2025-08-30,paid,0
+ORD-0140,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Dress Material,4,1800,7200,2025-06-15,2025-07-06,2025-08-06,2025-08-10,paid,0
+ORD-0141,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Fabric Yardage,10,680,6800,2025-06-18,2025-07-08,2025-07-22,2025-07-25,paid,2040
+ORD-0142,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Dress Material,4,1650,6600,2025-06-20,2025-07-10,2025-07-26,2025-07-24,paid,1980
+ORD-0143,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Silk Saree,2,13000,26000,2025-06-22,2025-07-18,2025-08-02,2025-07-30,paid,7800
+ORD-0144,W001,Ramesh Vishwakarma,Varanasi,B005,Ikat World,Dupatta,8,900,7200,2025-06-25,2025-07-16,2025-08-01,2025-07-30,paid,2160
+ORD-0145,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Stole,6,1250,7500,2025-06-28,2025-07-18,2025-08-02,2025-08-04,paid,2250
+ORD-0146,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Dupatta,5,850,4250,2025-06-30,2025-07-20,2025-08-20,2025-08-24,paid,0
+ORD-0147,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,3,8800,26400,2025-07-02,2025-07-26,2025-08-10,2025-08-08,paid,7920
+ORD-0148,W005,Fatima Begum,Varanasi,B004,WeaveMart Exports,Cotton Saree,6,2400,14400,2025-07-04,2025-07-26,2025-09-04,2025-09-10,paid,0
+ORD-0149,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Cotton Saree,5,2800,14000,2025-07-06,2025-07-28,2025-08-12,2025-08-10,paid,4200
+ORD-0150,W003,Priya Sharma,Chanderi,B007,GovEmporium State Store,Dupatta,10,1000,10000,2025-07-08,2025-07-30,2025-09-16,2025-09-24,paid,0
+ORD-0151,W004,Suresh Meghwal,Pochampally,B008,Handloom House,Fabric Yardage,16,700,11200,2025-07-10,2025-08-01,2025-08-16,2025-08-14,paid,3360
+ORD-0152,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Dress Material,7,1550,10850,2025-07-12,2025-08-03,2025-08-18,2025-08-16,paid,3255
+ORD-0153,W005,Fatima Begum,Varanasi,B005,Ikat World,Stole,8,1850,14800,2025-07-15,2025-08-05,2025-08-20,2025-08-18,paid,4440
+ORD-0154,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Dress Material,3,2300,6900,2025-07-18,2025-08-10,2025-08-25,2025-08-22,paid,2070
+ORD-0155,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Cotton Saree,5,2000,10000,2025-07-20,2025-08-10,2025-09-10,2025-09-15,paid,0
+ORD-0156,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Dupatta,8,900,7200,2025-07-22,2025-08-12,2025-08-28,2025-08-26,paid,2160
+ORD-0157,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,6,2200,13200,2025-07-25,2025-08-15,2025-08-30,2025-08-28,paid,3960
+ORD-0158,W005,Fatima Begum,Varanasi,B004,WeaveMart Exports,Dupatta,10,950,9500,2025-07-28,2025-08-18,2025-09-28,2025-10-05,paid,0
+ORD-0159,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,3,13000,39000,2025-08-01,2025-08-28,2025-09-12,2025-09-10,paid,11700
+ORD-0160,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Stole,8,1250,10000,2025-08-03,2025-08-25,2025-09-08,2025-09-06,paid,3000
+ORD-0161,W001,Ramesh Vishwakarma,Varanasi,B005,Ikat World,Fabric Yardage,18,620,11160,2025-08-05,2025-08-28,2025-09-12,2025-09-10,paid,3348
+ORD-0162,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,14,680,9520,2025-08-07,2025-08-30,2025-09-30,2025-10-04,paid,0
+ORD-0163,W005,Fatima Begum,Varanasi,B007,GovEmporium State Store,Cotton Saree,6,2400,14400,2025-08-10,2025-09-01,2025-10-20,2025-10-28,paid,0
+ORD-0164,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Cotton Saree,5,2800,14000,2025-08-12,2025-09-04,2025-09-20,2025-09-18,paid,4200
+ORD-0165,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Dress Material,6,1900,11400,2025-08-15,2025-09-06,2025-09-22,2025-09-20,paid,3420
+ORD-0166,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Stole,10,1800,18000,2025-08-18,2025-09-08,2025-10-18,2025-10-24,paid,0
+ORD-0167,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,10,900,9000,2025-08-20,2025-09-10,2025-09-25,2025-09-28,paid,2700
+ORD-0168,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Silk Saree,3,9500,28500,2025-08-22,2025-09-16,2025-10-02,2025-09-30,paid,8550
+ORD-0169,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Silk Saree,2,12500,25000,2025-08-25,2025-09-20,2025-10-06,2025-10-04,paid,7500
+ORD-0170,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Cotton Saree,6,2100,12600,2025-08-28,2025-09-18,2025-10-18,2025-10-22,paid,0
+ORD-0171,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,6,9000,54000,2025-09-01,2025-09-26,2025-10-10,2025-10-08,paid,16200
+ORD-0172,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Silk Saree,5,13000,65000,2025-09-03,2025-10-01,2025-10-16,2025-10-14,paid,19500
+ORD-0173,W004,Suresh Meghwal,Pochampally,B002,Kanchi Collections,Fabric Yardage,22,720,15840,2025-09-05,2025-09-28,2025-10-12,2025-10-10,paid,4752
+ORD-0174,W005,Fatima Begum,Varanasi,B008,Handloom House,Stole,14,1900,26600,2025-09-07,2025-09-30,2025-10-15,2025-10-12,paid,7980
+ORD-0175,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Dupatta,14,1050,14700,2025-09-08,2025-10-01,2025-11-10,2025-11-16,paid,0
+ORD-0176,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Cotton Saree,10,2300,23000,2025-09-10,2025-10-02,2025-11-02,2025-11-06,paid,0
+ORD-0177,W002,Lakshmi Devi,Kanchipuram,B007,GovEmporium State Store,Cotton Saree,6,2900,17400,2025-09-12,2025-10-04,2025-11-22,2025-12-01,paid,0
+ORD-0178,W005,Fatima Begum,Varanasi,B005,Ikat World,Cotton Saree,8,2500,20000,2025-09-15,2025-10-06,2025-10-22,2025-10-20,paid,6000
+ORD-0179,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,12,900,10800,2025-09-18,2025-10-10,2025-10-25,2025-10-22,paid,3240
+ORD-0180,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Stole,12,1300,15600,2025-09-20,2025-10-12,2025-10-28,2025-10-26,paid,4680
+ORD-0181,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,10,9200,92000,2025-10-01,2025-10-28,2025-11-12,2025-11-10,paid,27600
+ORD-0182,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,9,13500,121500,2025-10-02,2025-10-30,2025-11-14,2025-11-12,paid,36450
+ORD-0183,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Silk Saree,7,9800,68600,2025-10-03,2025-10-30,2025-11-14,2025-11-12,paid,20580
+ORD-0184,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Dress Material,14,1900,26600,2025-10-05,2025-10-30,2025-11-30,2025-12-04,paid,0
+ORD-0185,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,30,750,22500,2025-10-06,2025-10-30,2025-11-14,2025-11-12,paid,6750
+ORD-0186,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,14,2300,32200,2025-10-08,2025-11-02,2025-11-18,2025-11-16,paid,9660
+ORD-0187,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Cotton Saree,10,2900,29000,2025-10-10,2025-11-04,2025-12-14,2025-12-20,paid,0
+ORD-0188,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Stole,18,1950,35100,2025-10-12,2025-11-05,2025-11-20,2025-11-18,paid,10530
+ORD-0189,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Stole,16,1350,21600,2025-10-14,2025-11-06,2025-11-20,2025-11-18,paid,6480
+ORD-0190,W004,Suresh Meghwal,Pochampally,B007,GovEmporium State Store,Dupatta,18,950,17100,2025-10-15,2025-11-08,2025-12-26,2026-01-05,paid,0
+ORD-0191,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,12,9200,110400,2025-10-18,2025-11-14,2025-11-28,2025-11-26,paid,33120
+ORD-0192,W002,Lakshmi Devi,Kanchipuram,B003,Desi Threads Online,Silk Saree,7,13000,91000,2025-10-20,2025-11-16,2025-12-16,2025-12-22,paid,0
+ORD-0193,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Cotton Saree,10,2500,25000,2025-10-22,2025-11-14,2025-11-30,2025-11-28,paid,7500
+ORD-0194,W003,Priya Sharma,Chanderi,B005,Ikat World,Dupatta,20,1100,22000,2025-10-25,2025-11-18,2025-12-02,2025-11-30,paid,6600
+ORD-0195,W004,Suresh Meghwal,Pochampally,B008,Handloom House,Fabric Yardage,26,720,18720,2025-10-28,2025-11-20,2025-12-05,2025-12-03,paid,5616
+ORD-0196,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Dress Material,12,1600,19200,2025-10-30,2025-11-22,2025-12-08,2025-12-06,paid,5760
+ORD-0197,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,11,9500,104500,2025-11-01,2025-11-28,2025-12-12,2025-12-10,paid,31350
+ORD-0198,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,10,14000,140000,2025-11-02,2025-12-01,2025-12-15,,delivered,42000
+ORD-0199,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Silk Saree,8,10000,80000,2025-11-03,2025-12-01,2025-12-15,2025-12-14,paid,24000
+ORD-0200,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Cotton Saree,12,2200,26400,2025-11-05,2025-12-01,2026-01-10,,delivered,0
+ORD-0201,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,28,750,21000,2025-11-06,2025-12-01,2025-12-16,2025-12-14,paid,6300
+ORD-0202,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Cotton Saree,12,2400,28800,2025-11-08,2025-12-02,2026-01-02,,delivered,0
+ORD-0203,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Dress Material,7,2400,16800,2025-11-10,2025-12-04,2025-12-20,2025-12-18,paid,5040
+ORD-0204,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Stole,16,2000,32000,2025-11-12,2025-12-06,2025-12-22,2025-12-20,paid,9600
+ORD-0205,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Stole,14,1350,18900,2025-11-14,2025-12-08,2025-12-22,2025-12-20,paid,5670
+ORD-0206,W004,Suresh Meghwal,Pochampally,B002,Kanchi Collections,Dupatta,16,950,15200,2025-11-15,2025-12-08,2025-12-22,2025-12-20,paid,4560
+ORD-0207,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,9,9200,82800,2025-11-18,2025-12-15,2025-12-30,2025-12-28,paid,24840
+ORD-0208,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Cotton Saree,8,2900,23200,2025-11-20,2025-12-14,2025-12-30,2025-12-28,paid,6960
+ORD-0209,W005,Fatima Begum,Varanasi,B004,WeaveMart Exports,Dupatta,14,1000,14000,2025-11-22,2025-12-16,2026-01-26,,delivered,0
+ORD-0210,W003,Priya Sharma,Chanderi,B007,GovEmporium State Store,Dress Material,8,1900,15200,2025-11-25,2025-12-18,2026-02-04,,delivered,0
+ORD-0211,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,24,720,17280,2025-11-28,2025-12-20,2026-01-20,,delivered,0
+ORD-0212,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Dress Material,10,1600,16000,2025-11-30,2025-12-24,2026-01-08,2026-01-06,paid,4800
+ORD-0213,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,9,9200,82800,2025-12-01,2025-12-28,2026-01-12,2026-01-10,paid,24840
+ORD-0214,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,7,13500,94500,2025-12-03,2025-12-30,2026-01-14,2026-01-12,paid,28350
+ORD-0215,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Cotton Saree,10,2500,25000,2025-12-05,2025-12-28,2026-01-12,2026-01-10,paid,7500
+ORD-0216,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Stole,12,1300,15600,2025-12-07,2025-12-30,2026-01-14,2026-01-12,paid,4680
+ORD-0217,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Dupatta,14,900,12600,2025-12-08,2026-01-02,2026-01-16,2026-01-14,paid,3780
+ORD-0218,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Dupatta,16,950,15200,2025-12-10,2026-01-04,2026-02-14,,delivered,0
+ORD-0219,W002,Lakshmi Devi,Kanchipuram,B003,Desi Threads Online,Cotton Saree,8,2800,22400,2025-12-12,2026-01-06,2026-02-06,,delivered,0
+ORD-0220,W005,Fatima Begum,Varanasi,B008,Handloom House,Silk Saree,5,9800,49000,2025-12-15,2026-01-10,2026-01-26,2026-01-24,paid,14700
+ORD-0221,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dress Material,10,1900,19000,2025-12-18,2026-01-12,2026-01-26,2026-01-24,paid,5700
+ORD-0222,W004,Suresh Meghwal,Pochampally,B007,GovEmporium State Store,Fabric Yardage,20,700,14000,2025-12-20,2026-01-14,2026-03-04,,delivered,0
+ORD-0223,W001,Ramesh Vishwakarma,Varanasi,B005,Ikat World,Cotton Saree,10,2300,23000,2025-12-22,2026-01-14,2026-01-30,2026-01-28,paid,6900
+ORD-0224,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Silk Saree,6,13000,78000,2025-12-25,2026-01-22,2026-02-06,2026-02-04,paid,23400
+ORD-0225,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Stole,10,1900,19000,2025-12-28,2026-01-20,2026-02-04,2026-02-02,paid,5700
+ORD-0226,W003,Priya Sharma,Chanderi,B008,Handloom House,Cotton Saree,8,2100,16800,2025-12-30,2026-01-22,2026-02-06,2026-02-04,paid,5040
+ORD-0227,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,8,9000,72000,2026-01-02,2026-01-28,2026-02-12,2026-02-10,paid,21600
+ORD-0228,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Cotton Saree,12,2900,34800,2026-01-04,2026-01-28,2026-02-12,2026-02-10,paid,10440
+ORD-0229,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,20,720,14400,2026-01-06,2026-01-30,2026-02-28,2026-03-04,paid,0
+ORD-0230,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Dress Material,9,1900,17100,2026-01-08,2026-02-01,2026-02-16,2026-02-14,paid,5130
+ORD-0231,W005,Fatima Begum,Varanasi,B005,Ikat World,Stole,14,1850,25900,2026-01-10,2026-02-02,2026-02-18,2026-02-16,paid,7770
+ORD-0232,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,10,2300,23000,2026-01-12,2026-02-04,2026-02-20,2026-02-18,paid,6900
+ORD-0233,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Silk Saree,5,13000,65000,2026-01-15,2026-02-12,2026-03-24,,delivered,0
+ORD-0234,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,12,900,10800,2026-01-18,2026-02-10,2026-02-24,2026-02-22,paid,3240
+ORD-0235,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Stole,10,1250,12500,2026-01-20,2026-02-12,2026-03-12,2026-03-16,paid,0
+ORD-0236,W005,Fatima Begum,Varanasi,B007,GovEmporium State Store,Cotton Saree,8,2500,20000,2026-01-22,2026-02-14,2026-04-04,,delivered,0
+ORD-0237,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Dress Material,8,1600,12800,2026-01-25,2026-02-16,2026-03-02,2026-02-28,paid,3840
+ORD-0238,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Dress Material,4,2400,9600,2026-01-28,2026-02-20,2026-03-06,2026-03-04,paid,2880
+ORD-0239,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Fabric Yardage,16,700,11200,2026-01-30,2026-02-22,2026-03-08,2026-03-06,paid,3360
+ORD-0240,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Silk Saree,6,8800,52800,2026-02-01,2026-02-26,2026-03-12,2026-03-10,paid,15840
+ORD-0241,W003,Priya Sharma,Chanderi,B005,Ikat World,Cotton Saree,6,2100,12600,2026-02-03,2026-02-26,2026-03-14,2026-03-12,paid,3780
+ORD-0242,W005,Fatima Begum,Varanasi,B008,Handloom House,Silk Saree,4,9500,38000,2026-02-05,2026-03-02,2026-03-18,2026-03-16,paid,11400
+ORD-0243,W002,Lakshmi Devi,Kanchipuram,B003,Desi Threads Online,Cotton Saree,6,2800,16800,2026-02-07,2026-03-01,2026-04-01,2026-04-06,paid,0
+ORD-0244,W004,Suresh Meghwal,Pochampally,B004,WeaveMart Exports,Dupatta,10,900,9000,2026-02-10,2026-03-04,2026-04-14,,delivered,0
+ORD-0245,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Cotton Saree,6,2200,13200,2026-02-12,2026-03-05,2026-03-20,2026-03-18,paid,3960
+ORD-0246,W003,Priya Sharma,Chanderi,B002,Kanchi Collections,Dupatta,12,1050,12600,2026-02-15,2026-03-08,2026-03-22,2026-03-20,paid,3780
+ORD-0247,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Stole,8,1900,15200,2026-02-18,2026-03-12,2026-03-28,2026-03-26,paid,4560
+ORD-0248,W002,Lakshmi Devi,Kanchipuram,B007,GovEmporium State Store,Silk Saree,3,13000,39000,2026-02-20,2026-03-18,2026-05-06,,delivered,0
+ORD-0249,W004,Suresh Meghwal,Pochampally,B008,Handloom House,Fabric Yardage,14,680,9520,2026-02-22,2026-03-16,2026-04-01,2026-03-30,paid,2856
+ORD-0250,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Stole,8,1800,14400,2026-02-25,2026-03-18,2026-04-18,2026-04-22,paid,0
+ORD-0251,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Dress Material,6,1800,10800,2026-02-28,2026-03-22,2026-05-02,,delivered,0
+ORD-0252,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Fabric Yardage,14,620,8680,2026-03-02,2026-03-24,2026-04-08,2026-04-10,paid,0
+ORD-0253,W005,Fatima Begum,Varanasi,B005,Ikat World,Dupatta,8,950,7600,2026-03-04,2026-03-26,2026-04-10,2026-04-08,paid,2280
+ORD-0254,W002,Lakshmi Devi,Kanchipuram,B001,Silk Heritage Boutique,Cotton Saree,5,2800,14000,2026-03-06,2026-03-28,2026-04-14,2026-04-12,paid,4200
+ORD-0255,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,8,850,6800,2026-03-08,2026-03-30,2026-04-14,2026-04-16,paid,2040
+ORD-0256,W003,Priya Sharma,Chanderi,B008,Handloom House,Stole,7,1200,8400,2026-03-10,2026-04-01,2026-04-16,2026-04-14,paid,2520
+ORD-0257,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Silk Saree,3,8500,25500,2026-03-12,2026-04-06,2026-04-20,2026-04-18,paid,7650
+ORD-0258,W005,Fatima Begum,Varanasi,B003,Desi Threads Online,Dress Material,5,1650,8250,2026-03-15,2026-04-06,2026-05-06,2026-05-10,paid,0
+ORD-0259,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Dress Material,3,2300,6900,2026-03-18,2026-04-10,2026-05-20,,overdue,0
+ORD-0260,W004,Suresh Meghwal,Pochampally,B007,GovEmporium State Store,Fabric Yardage,12,700,8400,2026-03-20,2026-04-12,2026-05-30,,overdue,0
+ORD-0261,W003,Priya Sharma,Chanderi,B005,Ikat World,Cotton Saree,5,2000,10000,2026-03-22,2026-04-14,2026-04-28,2026-04-26,paid,3000
+ORD-0262,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,4,2200,8800,2026-03-25,2026-04-16,2026-05-01,2026-04-30,paid,2640
+ORD-0263,W005,Fatima Begum,Varanasi,B006,Banarasi Palace,Stole,6,1800,10800,2026-03-28,2026-04-18,2026-05-04,2026-05-02,paid,3240
+ORD-0264,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Silk Saree,2,13000,26000,2026-03-30,2026-04-26,2026-05-12,2026-05-10,paid,7800
+ORD-0265,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Dress Material,5,1550,7750,2026-04-02,2026-04-24,2026-05-08,2026-05-06,paid,2325
+ORD-0266,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dupatta,8,1000,8000,2026-04-04,2026-04-26,2026-05-10,2026-05-12,paid,2400
+ORD-0267,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Fabric Yardage,10,650,6500,2026-04-06,2026-04-28,2026-05-28,,partially_paid,0
+ORD-0268,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Cotton Saree,5,2400,12000,2026-04-08,2026-04-30,2026-05-16,2026-05-14,paid,3600
+ORD-0269,W002,Lakshmi Devi,Kanchipuram,B005,Ikat World,Cotton Saree,4,2800,11200,2026-04-10,2026-05-02,2026-05-18,2026-05-16,paid,3360
+ORD-0270,W001,Ramesh Vishwakarma,Varanasi,B004,WeaveMart Exports,Stole,6,1800,10800,2026-04-12,2026-05-04,2026-06-14,,overdue,0
+ORD-0271,W003,Priya Sharma,Chanderi,B008,Handloom House,Dress Material,4,1800,7200,2026-04-15,2026-05-06,2026-05-22,2026-05-20,paid,2160
+ORD-0272,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Dupatta,6,850,5100,2026-04-18,2026-05-08,2026-05-24,2026-05-22,paid,1530
+ORD-0273,W005,Fatima Begum,Varanasi,B007,GovEmporium State Store,Dress Material,4,1650,6600,2026-04-20,2026-05-12,2026-06-30,,overdue,0
+ORD-0274,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Dress Material,3,2300,6900,2026-04-22,2026-05-14,2026-05-30,2026-05-28,paid,2070
+ORD-0275,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Cotton Saree,4,2200,8800,2026-04-25,2026-05-16,2026-06-16,,partially_paid,0
+ORD-0276,W003,Priya Sharma,Chanderi,B002,Kanchi Collections,Cotton Saree,4,2000,8000,2026-04-28,2026-05-20,2026-06-04,2026-06-02,paid,2400
+ORD-0277,W004,Suresh Meghwal,Pochampally,B005,Ikat World,Fabric Yardage,10,680,6800,2026-04-30,2026-05-22,2026-06-06,2026-06-04,paid,2040
+ORD-0278,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Silk Saree,3,8800,26400,2026-05-02,2026-05-28,2026-06-12,2026-06-10,paid,7920
+ORD-0279,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Stole,5,1900,9500,2026-05-04,2026-05-26,2026-06-10,2026-06-08,paid,2850
+ORD-0280,W002,Lakshmi Devi,Kanchipuram,B008,Handloom House,Silk Saree,2,13000,26000,2026-05-06,2026-06-02,2026-06-18,2026-06-16,paid,7800
+ORD-0281,W003,Priya Sharma,Chanderi,B004,WeaveMart Exports,Stole,6,1250,7500,2026-05-08,2026-05-30,2026-07-10,,pending,0
+ORD-0282,W004,Suresh Meghwal,Pochampally,B003,Desi Threads Online,Dupatta,6,850,5100,2026-05-10,2026-06-01,2026-07-01,,pending,0
+ORD-0283,W001,Ramesh Vishwakarma,Varanasi,B007,GovEmporium State Store,Dress Material,5,1500,7500,2026-05-12,2026-06-04,2026-07-22,,pending,0
+ORD-0284,W005,Fatima Begum,Varanasi,B005,Ikat World,Cotton Saree,4,2400,9600,2026-05-15,2026-06-06,2026-06-22,2026-06-20,paid,2880
+ORD-0285,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Cotton Saree,4,2800,11200,2026-05-18,2026-06-10,2026-06-25,2026-06-28,paid,3360
+ORD-0286,W003,Priya Sharma,Chanderi,B001,Silk Heritage Boutique,Dupatta,8,1050,8400,2026-05-20,2026-06-10,2026-06-26,2026-06-24,paid,2520
+ORD-0287,W004,Suresh Meghwal,Pochampally,B002,Kanchi Collections,Fabric Yardage,12,700,8400,2026-05-22,2026-06-12,2026-06-28,2026-06-26,paid,2520
+ORD-0288,W001,Ramesh Vishwakarma,Varanasi,B008,Handloom House,Cotton Saree,4,2200,8800,2026-05-25,2026-06-16,2026-07-01,2026-06-30,paid,2640
+ORD-0289,W005,Fatima Begum,Varanasi,B004,WeaveMart Exports,Dupatta,6,950,5700,2026-05-28,2026-06-18,2026-07-28,,pending,0
+ORD-0290,W002,Lakshmi Devi,Kanchipuram,B003,Desi Threads Online,Dress Material,3,2300,6900,2026-05-30,2026-06-22,2026-07-22,,pending,0
+ORD-0291,W001,Ramesh Vishwakarma,Varanasi,B006,Banarasi Palace,Fabric Yardage,10,620,6200,2026-06-01,2026-06-22,2026-07-06,2026-07-08,paid,0
+ORD-0292,W003,Priya Sharma,Chanderi,B005,Ikat World,Cotton Saree,4,2000,8000,2026-06-03,2026-06-25,2026-07-10,,pending,0
+ORD-0293,W004,Suresh Meghwal,Pochampally,B001,Silk Heritage Boutique,Dupatta,5,850,4250,2026-06-05,2026-06-26,2026-07-12,,pending,0
+ORD-0294,W005,Fatima Begum,Varanasi,B008,Handloom House,Stole,5,1800,9000,2026-06-07,2026-06-28,2026-07-14,,pending,0
+ORD-0295,W002,Lakshmi Devi,Kanchipuram,B002,Kanchi Collections,Cotton Saree,3,2800,8400,2026-06-10,2026-07-02,2026-07-18,,pending,0
+ORD-0296,W001,Ramesh Vishwakarma,Varanasi,B003,Desi Threads Online,Silk Saree,3,8500,25500,2026-06-12,2026-07-06,2026-08-06,,in_production,0
+ORD-0297,W003,Priya Sharma,Chanderi,B006,Banarasi Palace,Dress Material,4,1800,7200,2026-06-15,2026-07-08,2026-07-22,,in_production,0
+ORD-0298,W004,Suresh Meghwal,Pochampally,B004,WeaveMart Exports,Fabric Yardage,10,680,6800,2026-06-18,2026-07-10,2026-08-20,,in_production,0
+ORD-0299,W005,Fatima Begum,Varanasi,B005,Ikat World,Cotton Saree,4,2400,9600,2026-06-20,2026-07-12,2026-07-28,,in_production,0
+ORD-0300,W002,Lakshmi Devi,Kanchipuram,B007,GovEmporium State Store,Silk Saree,3,13000,39000,2026-06-22,2026-07-18,2026-09-06,,in_production,0
+ORD-0301,W001,Ramesh Vishwakarma,Varanasi,B001,Silk Heritage Boutique,Cotton Saree,5,2200,11000,2026-06-25,2026-07-16,2026-08-01,,in_production,0
+ORD-0302,W003,Priya Sharma,Chanderi,B008,Handloom House,Stole,6,1200,7200,2026-06-28,2026-07-18,2026-08-04,,in_production,0
+ORD-0303,W005,Fatima Begum,Varanasi,B002,Kanchi Collections,Dupatta,8,950,7600,2026-06-30,2026-07-22,2026-08-06,,in_production,0
+ORD-0304,W004,Suresh Meghwal,Pochampally,B006,Banarasi Palace,Dupatta,6,900,5400,2026-07-01,2026-07-22,2026-08-06,,in_production,0
+ORD-0305,W001,Ramesh Vishwakarma,Varanasi,B005,Ikat World,Stole,8,1800,14400,2026-07-02,2026-07-24,2026-08-08,,in_production,0
+ORD-0306,W002,Lakshmi Devi,Kanchipuram,B006,Banarasi Palace,Cotton Saree,5,2800,14000,2026-07-04,2026-07-26,2026-08-10,,in_production,0
+ORD-0307,W003,Priya Sharma,Chanderi,B003,Desi Threads Online,Cotton Saree,5,2100,10500,2026-07-06,2026-07-28,2026-08-28,,confirmed,0
+ORD-0308,W005,Fatima Begum,Varanasi,B001,Silk Heritage Boutique,Silk Saree,4,9500,38000,2026-07-08,2026-08-04,2026-08-18,,confirmed,11400
+ORD-0309,W004,Suresh Meghwal,Pochampally,B008,Handloom House,Fabric Yardage,14,700,9800,2026-07-10,2026-08-01,2026-08-16,,confirmed,2940
+ORD-0310,W001,Ramesh Vishwakarma,Varanasi,B002,Kanchi Collections,Dress Material,6,1550,9300,2026-07-12,2026-08-04,2026-08-18,,confirmed,2790
+ORD-0311,W002,Lakshmi Devi,Kanchipuram,B004,WeaveMart Exports,Silk Saree,3,13000,39000,2026-07-14,2026-08-10,2026-09-20,,pending,0
