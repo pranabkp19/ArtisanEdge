@@ -76,6 +76,7 @@ class Order(Base):
         comment="pending | confirmed | in_production | delivered | partially_paid | paid | overdue | cancelled",
     )
     advance_amount: Mapped[float] = mapped_column(Float, default=0.0)
+    net_profit: Mapped[float] = mapped_column(Float, default=0.0)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)
     )

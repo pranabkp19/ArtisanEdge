@@ -150,6 +150,7 @@ def add_new_material(
         current_stock=body.current_stock,
         safety_buffer=body.safety_buffer,
         unit=body.unit,
+        production_cost=body.production_cost,
     )
     db.add(new_item)
     db.commit()

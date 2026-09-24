@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { useAuth } from "../../hooks/useAuth";
 import { api } from "../../services/api";
 import InventoryView from "./Inventory";
+import VoiceAssistant from "../../components/VoiceAssistant";
 import { 
   LogOut, CheckCircle, Clock, AlertCircle, ShoppingBag, 
-  Globe, RefreshCw, Sparkles, AlertTriangle,
+  Globe, RefreshCw, Sparkles, AlertTriangle, TrendingUp,
   LayoutDashboard, LineChart as ChartIcon, Layers, Plus, X, Download, Trash2
 } from "lucide-react";
 import { 
@@ -24,6 +25,7 @@ const translations = {
     totalEarned: "Total Earned",
     pendingPayments: "Pending Payments",
     overduePayments: "Overdue Payments",
+    netProfit: "Net Profit",
     forecastHeader: "Demand Forecasting & Seasonal Analysis",
     forecastTagline: "AI-driven demand index predictions and recommendations for raw material planning",
     forecastExplain: "Forecast Insights & Explanation",
@@ -111,6 +113,7 @@ const translations = {
     totalEarned: "कुल कमाई",
     pendingPayments: "लंबित भुगतान",
     overduePayments: "अतिदेय (Overdue) भुगतान",
+    netProfit: "शुद्ध लाभ",
     forecastHeader: "मांग पूर्वानुमान और मौसमी विश्लेषण",
     forecastTagline: "कच्चे माल की योजना बनाने के लिए एआई-संचालित मांग सूचकांक भविष्यवाणियां और सिफारिशें",
     forecastExplain: "पूर्वानुमान अंतर्दृष्टि और स्पष्टीकरण",
@@ -440,6 +443,10 @@ export default function Dashboard() {
   const totalEarned = orders
     .filter((o) => o.status?.toLowerCase().trim() === "paid")
     .reduce((sum, o) => sum + o.total_value, 0);
+
+  const totalNetProfit = orders
+    .filter((o) => o.status?.toLowerCase().trim() === "paid")
+    .reduce((sum, o) => sum + (o.net_profit || 0), 0);
 
   const pendingPayments = orders
     .filter((o) => {
@@ -1010,7 +1017,7 @@ export default function Dashboard() {
               <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-wider">
                 {t.metricsTitle}
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 
                 {/* Total Earned Card */}
                 <div className="bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 border border-white/10 rounded-[2rem] p-6 shadow-[inset_2px_2px_5px_rgba(255,255,255,0.08),_4px_4px_10px_rgba(0,0,0,0.7),_-2px_-2px_5px_rgba(255,255,255,0.03)] relative overflow-hidden transition-all duration-300 hover:scale-[1.005]">
@@ -1024,6 +1031,22 @@ export default function Dashboard() {
                     </div>
                     <div className="p-3 bg-emerald-500/15 rounded-xl text-emerald-400 border border-emerald-500/20">
                       <CheckCircle className="w-6 h-6" />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Net Profit Card */}
+                <div className="bg-gradient-to-br from-emerald-950/20 via-slate-950 to-emerald-950/10 border border-emerald-500/25 rounded-[2rem] p-6 shadow-[inset_2px_2px_5px_rgba(16,185,129,0.08),_4px_4px_10px_rgba(0,0,0,0.7)] relative overflow-hidden transition-all duration-300 hover:scale-[1.005]">
+                  <div className="absolute -right-4 -bottom-4 w-24 h-24 bg-emerald-500/20 rounded-full blur-xl pointer-events-none group-hover:scale-110 transition-transform"></div>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <p className="text-emerald-400 text-xs font-medium uppercase tracking-wider">{t.netProfit}</p>
+                      <h4 className="text-3xl font-extrabold text-emerald-400 mt-2 font-mono">
+                        ₹{totalNetProfit.toLocaleString("en-IN")}
+                      </h4>
+                    </div>
+                    <div className="p-3 bg-emerald-500/20 rounded-xl text-emerald-400 border border-emerald-500/30">
+                      <TrendingUp className="w-6 h-6" />
                     </div>
                   </div>
                 </div>
@@ -1797,6 +1820,7 @@ export default function Dashboard() {
           </div>
         </div>
       )}
+      <VoiceAssistant />
     </div>
   );
 }

@@ -30,3 +30,6 @@ backend/handloom.db-journal
 .vscode/
 .DS_Store
 Thumbs.db
+
+backend/*.db-shm
+backend/*.db-wal

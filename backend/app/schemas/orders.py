@@ -98,6 +98,7 @@ class OrderOut(BaseModel):
     quantity: int
     price_per_unit: float
     total_value: float
+    net_profit: float
     order_date: date
     expected_delivery_date: date | None = None
     expected_payment_date: date | None = None

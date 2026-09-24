@@ -9,6 +9,7 @@ class InventoryOut(BaseModel):
     current_stock: float
     safety_buffer: float
     unit: str
+    production_cost: float
     updated_at: datetime
 
     model_config = {"from_attributes": True}
@@ -24,6 +25,7 @@ class MaterialCreate(BaseModel):
     current_stock: float = Field(..., ge=0)
     safety_buffer: float = Field(..., ge=0)
     unit: str = Field(default="kg", max_length=10)
+    production_cost: float = Field(default=0.0, ge=0)
 
 
 class MaterialRequirementDetail(BaseModel):

@@ -39,6 +39,7 @@ const translations = {
     lblSafetyBuffer: "Safety Buffer (kg)",
     btnAdding: "Adding...",
     lblUnit: "Unit (e.g. kg)",
+    lblProductionCost: "Cost to Make (Production Cost per unit)",
   },
   hi: {
     header: "कच्चा माल और स्टॉक नियोजक",
@@ -72,6 +73,7 @@ const translations = {
     lblSafetyBuffer: "सुरक्षा बफर (किग्रा)",
     btnAdding: "जोड़ा जा रहा है...",
     lblUnit: "इकाई (जैसे किग्रा)",
+    lblProductionCost: "बनाने की लागत (प्रति इकाई उत्पादन लागत)",
   },
 };
 
@@ -124,7 +126,8 @@ export default function InventoryView() {
     material_name: "",
     current_stock: "",
     safety_buffer: "",
-    unit: "kg"
+    unit: "kg",
+    production_cost: ""
   });
   const [addModalSaving, setAddModalSaving] = useState(false);
   const [addModalError, setAddModalError] = useState(null);
@@ -246,7 +249,7 @@ export default function InventoryView() {
     setAddModalSaving(true);
     setAddModalError(null);
 
-    const { material_name, current_stock, safety_buffer, unit } = addMaterialForm;
+    const { material_name, current_stock, safety_buffer, unit, production_cost } = addMaterialForm;
     if (!material_name.trim()) {
       setAddModalError(language === "hi" ? "कृपया सामग्री का नाम दर्ज करें।" : "Please enter a material name.");
       setAddModalSaving(false);
@@ -255,6 +258,7 @@ export default function InventoryView() {
 
     const parsedStock = parseFloat(current_stock);
     const parsedBuffer = parseFloat(safety_buffer);
+    const parsedCost = parseFloat(production_cost);
 
     if (isNaN(parsedStock) || parsedStock < 0) {
       setAddModalError(language === "hi" ? "कृपया एक मान्य स्टॉक स्तर दर्ज करें।" : "Please enter a valid stock quantity (0 or higher).");
@@ -268,19 +272,27 @@ export default function InventoryView() {
       return;
     }
 
+    if (isNaN(parsedCost) || parsedCost < 0) {
+      setAddModalError(language === "hi" ? "कृपया एक मान्य बनाने की लागत दर्ज करें।" : "Please enter a valid cost to make (0 or higher).");
+      setAddModalSaving(false);
+      return;
+    }
+
     try {
       await api.post("/inventory", {
         material_name: material_name.trim(),
         current_stock: parsedStock,
         safety_buffer: parsedBuffer,
-        unit: unit || "kg"
+        unit: unit || "kg",
+        production_cost: parsedCost
       });
       
       setAddMaterialForm({
         material_name: "",
         current_stock: "",
         safety_buffer: "",
-        unit: "kg"
+        unit: "kg",
+        production_cost: ""
       });
       setIsAddModalOpen(false);
       
@@ -800,6 +812,23 @@ export default function InventoryView() {
                   onChange={(e) => setAddMaterialForm({...addMaterialForm, unit: e.target.value})}
                   className="w-full bg-slate-950 border border-white/10 rounded-xl px-3 py-2 text-sm text-white focus:outline-none focus:border-indigo-500"
                   placeholder="kg"
+                />
+              </div>
+
+              {/* Production Cost */}
+              <div className="space-y-1">
+                <label className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                  {t.lblProductionCost}
+                </label>
+                <input
+                  type="number"
+                  step="0.01"
+                  min="0"
+                  required
+                  value={addMaterialForm.production_cost}
+                  onChange={(e) => setAddMaterialForm({...addMaterialForm, production_cost: e.target.value})}
+                  className="w-full bg-slate-950 border border-white/10 rounded-xl px-3 py-2 text-sm text-white font-mono focus:outline-none focus:border-indigo-500"
+                  placeholder="0.00"
                 />
               </div>
 

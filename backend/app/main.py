@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import APP_DESCRIPTION, APP_TITLE, APP_VERSION
 from app.db.base import Base
 from app.db.session import engine
-from app.routers import auth, orders, forecast, inventory
+from app.routers import auth, orders, forecast, inventory, chatbot
 
 # Import models so Base.metadata registers all tables
 import app.models  # noqa: F401
@@ -39,6 +39,7 @@ def create_app() -> FastAPI:
     application.include_router(orders.transactions_router, prefix=api_prefix)
     application.include_router(forecast.router, prefix=api_prefix)
     application.include_router(inventory.router, prefix=api_prefix)
+    application.include_router(chatbot.router, prefix=api_prefix)
 
     from typing import Annotated
     from fastapi import Depends

@@ -17,6 +17,7 @@ class Inventory(Base):
     current_stock: Mapped[float] = mapped_column(Float, nullable=False, default=0.0)
     safety_buffer: Mapped[float] = mapped_column(Float, nullable=False, default=5.0)
     unit: Mapped[str] = mapped_column(String(10), nullable=False, default="kg")
+    production_cost: Mapped[float] = mapped_column(Float, nullable=False, default=0.0)
     updated_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         default=lambda: datetime.now(timezone.utc),

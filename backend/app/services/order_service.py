@@ -97,6 +97,18 @@ def create_order(db: Session, weaver_user_id: int, data: OrderCreate) -> Order:
     cat = db.query(ProductCategory).filter(ProductCategory.id == data.category_id).first()
     cat_name = cat.name if cat else "Silk Saree"
 
+    # Calculate net profit
+    if data.category_id == 5:
+        p_cost = 3500.0
+    elif data.category_id == 1:
+        p_cost = 1200.0
+    else:
+        p_cost = data.price_per_unit * 0.65
+        
+    prod_cost_total = data.quantity * p_cost
+    overhead = 0.1 * prod_cost_total
+    net_prof = (data.quantity * data.price_per_unit) - (prod_cost_total + overhead)
+
     order = Order(
         weaver_user_id=weaver_user_id,
         category_id=data.category_id,
@@ -104,6 +116,7 @@ def create_order(db: Session, weaver_user_id: int, data: OrderCreate) -> Order:
         quantity=data.quantity,
         price_per_unit=data.price_per_unit,
         total_value=data.quantity * data.price_per_unit,
+        net_profit=net_prof,
         order_date=data.order_date,
         expected_delivery_date=data.expected_delivery_date,
         expected_payment_date=data.expected_payment_date,
@@ -130,6 +143,15 @@ def update_order(db: Session, order: Order, data: OrderUpdate) -> Order:
     # Recalculate total if quantity or price changed
     if "quantity" in update_data or "price_per_unit" in update_data:
         order.total_value = order.quantity * order.price_per_unit
+        if order.category_id == 5:
+            p_cost = 3500.0
+        elif order.category_id == 1:
+            p_cost = 1200.0
+        else:
+            p_cost = order.price_per_unit * 0.65
+        prod_cost_total = order.quantity * p_cost
+        overhead = 0.1 * prod_cost_total
+        order.net_profit = order.total_value - (prod_cost_total + overhead)
     order.updated_at = datetime.now(timezone.utc)
     db.commit()
     db.refresh(order)
